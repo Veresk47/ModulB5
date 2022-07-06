@@ -60,9 +60,9 @@ while True:
     show()
 
     if count % 2 == 1:
-        print("Ходик крестик")
+        print("Ходит крестик")
     else:
-        print('Ходик нолик')
+        print('Ходит нолик')
 
     x, y = ask()
     if count % 2 == 1 :
